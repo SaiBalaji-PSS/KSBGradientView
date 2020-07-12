@@ -30,18 +30,18 @@ KSBGradientView is available under the MIT license. See the LICENSE file for mor
 
 # Usage
 
-# Import the library
+## Import the library
 
 ```swift
 import KSBGradientView
 ```
-# Adding horizontal gradient to the UIView
+## Adding horizontal gradient to the UIView
 
 ```swift
   VIEWNAME_HERE.applyHorizontalGradient(startcolor: UIColor.red, endcolor: UIColor.yellow)
 ```
 
-# Adding vertical gradient to UIView
+## Adding vertical gradient to UIView
 
 ```swift
    VIEWNAME_HERE.applyVerticalGradient(startcolor: UIColor.purple, endcolor: UIColor.systemPink)
