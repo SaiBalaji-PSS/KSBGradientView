@@ -20,15 +20,15 @@ it, simply add the following line to your Podfile:
 pod 'KSBGradientView'
 ```
 
-## Author
+# Author
 
 Sai Balaji.K, ksbalaji2000@outlook.com
 
-## License
+# License
 
 KSBGradientView is available under the MIT license. See the LICENSE file for more info.
 
-## Usage
+# Usage
 
 # Import the library
 
