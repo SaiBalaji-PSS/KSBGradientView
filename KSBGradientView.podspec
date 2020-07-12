@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'This cocoa pod is used to add gradient background to UIView.It support two color gradient.It works with UIKit framework'
                        DESC
 
-  s.homepage         = 'https://github.com/Sai Balaji.K/KSBGradientView'
+  s.homepage         = 'https://github.com/SaiBalaji22/KSBGradientView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sai Balaji.K' => 'ksbalaji2000@outlook.com' }
@@ -40,3 +40,5 @@ Pod::Spec.new do |s|
    s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
+
