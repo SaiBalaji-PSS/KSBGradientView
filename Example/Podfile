@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KSBGradientView_Example' do
+  pod 'KSBGradientView', :path => '../'
+
+  target 'KSBGradientView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
