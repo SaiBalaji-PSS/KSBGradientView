@@ -11,11 +11,14 @@ import KSBGradientView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var testView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       // view.applyHorizontalGradient(startcolor: UIColor.red, endcolor: UIColor.yellow)
-        view.applyVerticalGradient(startcolor: UIColor.purple, endcolor: UIColor.gray)
+        testView.applyHorizontalGradient(startcolor: UIColor.red, endcolor: UIColor.yellow)
+        
+        
+        view.applyVerticalGradient(startcolor: UIColor.purple, endcolor: UIColor.systemPink)
         
        
         
