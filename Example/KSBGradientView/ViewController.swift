@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import KSBGradientView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+       // view.applyHorizontalGradient(startcolor: UIColor.red, endcolor: UIColor.yellow)
+        view.applyVerticalGradient(startcolor: UIColor.purple, endcolor: UIColor.gray)
+        
+       
+        
     }
 
     override func didReceiveMemoryWarning() {

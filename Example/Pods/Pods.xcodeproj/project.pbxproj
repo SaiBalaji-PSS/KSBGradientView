@@ -12,10 +12,10 @@
 		6D8E097598183731C7FD26F2EAF866A7 /* KSBGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC9E0179D85D27F711527EABE71F9F5 /* KSBGradientView-dummy.m */; };
 		829310D7608606097946AF8D74394F56 /* Pods-KSBGradientView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA2D0F67B9979E4ACB9526A6E2AA4E /* Pods-KSBGradientView_Example-dummy.m */; };
 		E0A7E9AA65427382437349A86854A290 /* Pods-KSBGradientView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287C1168485335D6B5CAA0AE41A0BF05 /* Pods-KSBGradientView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E491D36024BB0566009C42ED /* KSBGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491D35F24BB0566009C42ED /* KSBGradientView.swift */; };
 		E5A27796B002407666269A0BFC4AD7C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F3E54998598198DD5F48463F7F164135 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F68E665C108D21D588F548C13743ED0F /* Pods-KSBGradientView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A667043E4951668C8ECCFEBD0A86F671 /* Pods-KSBGradientView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCA5C0809D99EFF160B76BA0B67A3E1A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549ABE75287EF3370740E1F85DDFE56E /* ReplaceMe.swift */; };
 		FD41907A3612EDAC3C40188B9CFBF007 /* KSBGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EBDA9DFE412EF4D27EA759D226D4CA2 /* KSBGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,6 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4738744ED5733B633B2FFE22E59BBDF6 /* KSBGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KSBGradientView.modulemap; sourceTree = "<group>"; };
 		4AA8C89334F9753A94F74A477C930195 /* Pods-KSBGradientView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSBGradientView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		549ABE75287EF3370740E1F85DDFE56E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KSBGradientView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		594071D84D6F712036E496F0CAD9B39A /* KSBGradientView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KSBGradientView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		599E4A9C5B1457CA2638B20DCFE22C2E /* Pods_KSBGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSBGradientView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFC044E01492DD5EFFBACCDC6750BCE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		D3777FB3528ECC64E6E73A60A2AE04F6 /* Pods-KSBGradientView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSBGradientView_Example.modulemap"; sourceTree = "<group>"; };
 		D4C2880AC977BD156FACCA4F23FCDF86 /* KSBGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSBGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D523A4802C4B081A6883D75CF4BA4B70 /* KSBGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSBGradientView-prefix.pch"; sourceTree = "<group>"; };
+		E491D35F24BB0566009C42ED /* KSBGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KSBGradientView.swift; path = KSBGradientView/Classes/KSBGradientView.swift; sourceTree = "<group>"; };
 		EE4E562F94538849E1243BA52E793DCD /* KSBGradientView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSBGradientView.debug.xcconfig; sourceTree = "<group>"; };
 		FCF515E59F27D72D0AD0B39608C2E1E7 /* Pods_KSBGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSBGradientView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,9 +128,9 @@
 		2C7491AACEB2505336DC24CB6DFEE481 /* KSBGradientView */ = {
 			isa = PBXGroup;
 			children = (
-				549ABE75287EF3370740E1F85DDFE56E /* ReplaceMe.swift */,
 				3AB1F156590E4A2B38AB5991355ED8AB /* Pod */,
 				60780E69B7C0E54F3147E940257337B5 /* Support Files */,
+				E491D35F24BB0566009C42ED /* KSBGradientView.swift */,
 			);
 			name = KSBGradientView;
 			path = ../..;
@@ -389,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D8E097598183731C7FD26F2EAF866A7 /* KSBGradientView-dummy.m in Sources */,
-				FCA5C0809D99EFF160B76BA0B67A3E1A /* ReplaceMe.swift in Sources */,
+				E491D36024BB0566009C42ED /* KSBGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE4E562F94538849E1243BA52E793DCD /* KSBGradientView.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -435,6 +436,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -479,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B55358B62915BBEE873F7EFB8139930 /* KSBGradientView.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
