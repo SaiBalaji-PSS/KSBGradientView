@@ -1,0 +1,16 @@
+PODS:
+  - KSBGradientView (0.1.0)
+
+DEPENDENCIES:
+  - KSBGradientView (from `../`)
+
+EXTERNAL SOURCES:
+  KSBGradientView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KSBGradientView: ec855daf3e59bf44d26b03113aef68a1215eea70
+
+PODFILE CHECKSUM: 930dc62e41ca432f83151676042de9e4703004db
+
+COCOAPODS: 1.9.3

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KSBGradientView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KSBGradientView.'
+  s.summary          = 'A CocoaPod to add Gradient background to UIView'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This cocoa pod is used to add gradient background to UIView.It support two color gradient.It works with UIKit framework'
                        DESC
 
   s.homepage         = 'https://github.com/Sai Balaji.K/KSBGradientView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sai Balaji.K' => 'ksbalaji2000@outlook.com' }
-  s.source           = { :git => 'https://github.com/Sai Balaji.K/KSBGradientView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SaiBalaji22/KSBGradientView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KSBGradientView/Classes/**/*'
+  s.source_files = 'KSBGradientView/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'KSBGradientView' => ['KSBGradientView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

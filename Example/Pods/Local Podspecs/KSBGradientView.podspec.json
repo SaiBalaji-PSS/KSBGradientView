@@ -1,0 +1,22 @@
+{
+  "name": "KSBGradientView",
+  "version": "0.1.0",
+  "summary": "A short description of KSBGradientView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sai Balaji.K/KSBGradientView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sai Balaji.K": "ksbalaji2000@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/Sai Balaji.K/KSBGradientView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KSBGradientView/Classes/**/*"
+}
