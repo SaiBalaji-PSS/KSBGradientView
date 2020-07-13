@@ -49,5 +49,9 @@ import KSBGradientView
 ```swift
    VIEWNAME_HERE.applyVerticalGradient(startcolor: UIColor.purple, endcolor: UIColor.systemPink)
 ```
+## Screenshot
+
+![Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-13 at 09 41 40](https://user-images.githubusercontent.com/51410810/87270218-1d888180-c4ed-11ea-8ff9-89344aed9b8d.png)
+
 
 
